@@ -31,4 +31,4 @@ $ constexpr.py cloned_repos/gcc cloned_repos/tensorflow
 
 All of the output will be saved to an `outputs` folder in this repo. This **folder must exist beforehand**, so create it yourself.
 
-This would be the part where I'd say use the `combine_outputs.ipynb` notebook to merge the various outputs into a single CSV, but as noted above the script is gone. Take my word for it that the only thing happening in the script was merging some columns together, and converting unix times to fractional years. There's no data manipulation going on. The merged outputs are linked in the blog post, anyway, and in `combined.csv`.
+This would be the part where I'd say use the `combine_outputs.ipynb` notebook to merge the various outputs into a single CSV, but as noted above the script is gone. Take my word for it that the only thing happening in the script was merging some columns together, and converting unix times to fractional years. There's no data manipulation going on. The merged outputs are linked in the blog post, anyway, and in `combined2k.csv`.
