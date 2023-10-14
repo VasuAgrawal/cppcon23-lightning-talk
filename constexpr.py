@@ -4,7 +4,7 @@ import pathlib
 def ensurePathExists(path: str):
     p = pathlib.Path(path)
     if not p.exists():
-        raise ar(f"{p} does not exist.")
+        raise argparse.ArgumentError(f"{p} does not exist.")
     return p
 
 parser = argparse.ArgumentParser(description="")
